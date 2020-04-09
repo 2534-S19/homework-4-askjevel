@@ -1,8 +1,8 @@
 /*
  * homework4.h
  *
- *  Created on:
- *      Author:
+ *  Created on: April 3, 2020
+ *      Author: Anders Skjeveland
  */
 
 #ifndef HOMEWORK4_H_
@@ -13,6 +13,6 @@ void initBoard();
 bool charFSM(char rChar);
 
 // TODO: Define any constants that are local to homework.c using #define
-
+typedef enum{none, first, second, third} char_state_t;
 
 #endif /* HOMEWORK4_H_ */
